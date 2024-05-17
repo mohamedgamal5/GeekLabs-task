@@ -1,0 +1,6 @@
+.home {
+  display: "flex";
+  flex-direction: "row";
+  width: "100%";
+  background-color: "rgba(49, 49, 49, 1)";
+}

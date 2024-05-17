@@ -1,0 +1,595 @@
+.FilterWrapper {
+  background-color: var(--black-color);
+  float: right;
+  padding: 10px;
+  width: 500px;
+  height: 100%;
+}
+.showOverlay {
+  visibility: visible;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+}
+.div button {
+  margin-left: 20px;
+  width: 67.18px;
+  height: 20.38px;
+  top: 138.95px;
+  left: 220.63px;
+  gap: 0px;
+  border-radius: 3.02px;
+  border: 0;
+  background-color: var(--blue-color);
+  opacity: 0px;
+}
+h2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: white;
+}
+.filterhead {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.filterhead .x {
+  background-color: var(--blue-color);
+  padding: 5px;
+  border-radius: 4px;
+  height: 25px;
+  margin-left: 50%;
+  color: white;
+  border: 0px;
+}
+.filterapplied {
+  background-color: var(--gray2-color);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4.42px;
+  height: 65px;
+  overflow-y: auto;
+}
+.filteritem {
+  display: inline-block;
+  margin: 5px;
+  background-color: var(--blue-color);
+  padding: 5px;
+  border-radius: 4px;
+  height: 18px;
+  font-family: Poppins;
+  font-size: 11.06px;
+  font-weight: 400;
+  line-height: 17.93px;
+  text-align: left;
+}
+.filteritem button {
+  background-color: rgb(0, 0, 0, 0);
+  border: 0px;
+}
+
+.stock {
+  background-color: var(--gray2-color);
+  padding: 10px;
+  border-radius: 4px;
+}
+.stock input {
+  color: white;
+  background-color: var(--gray-color);
+  border: 0px;
+  border-radius: 4px;
+  width: 100%;
+  height: 27px;
+}
+.industry {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.industry .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.industry img {
+  width: 7.36px;
+  height: 5.94px;
+  padding-right: 10px;
+}
+.industry h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: white;
+}
+
+.industryitems {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.industryitem span {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+
+  color: white;
+}
+.industryitem span:hover {
+  background-color: var(--blue-color);
+}
+.industryitem2 {
+  margin-left: 20px;
+}
+.industryitem2 span {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+
+  color: white;
+}
+.industryitem2 span:hover {
+  background-color: var(--blue-color);
+}
+.morefilter {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.morefilter span {
+  color: white;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.32px;
+  text-align: left;
+  padding-left: 5px;
+}
+.morefilter h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: white;
+}
+.morefilter form div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  width: 20px;
+}
+.morefilter .market-cap {
+  padding-right: 10px;
+}
+.morefilter .risk {
+  padding-right: 10px;
+  padding-left: 50px;
+}
+
+.head {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.head img {
+  width: 7.36px;
+  height: 5.94px;
+  padding-right: 10px;
+}
+
+.morefilter2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+}
+.morefilter2 h3 {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: white;
+}
+.strategy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.morefilter2 h3 {
+  margin: 0%;
+  margin-top: 0px;
+}
+.asset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.morefilter2 p {
+  margin-bottom: -5px;
+}
+form div span {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.buttons .button2 {
+  background-color: var(--blue-color);
+  border: 0cap;
+  width: 161px;
+  height: 43px;
+  top: 718px;
+  left: 134px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.buttons .button {
+  display: none;
+}
+.closebtn {
+  display: none;
+  color: white;
+  /* position: absolute; */
+  float: right;
+}
+
+@media (max-width: 520px) {
+  .backDrop {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s;
+  }
+  .showBackDrop {
+    opacity: 0.8;
+    visibility: visible;
+  }
+  .FilterWrapper {
+    z-index: 1500;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-45%, -45%);
+    /* margin-top: -250px;
+          margin-left: -15%; */
+
+    visibility: hidden;
+    transition: all 0.5s;
+    background-color: var(--black-color);
+    float: right;
+    padding: 10px;
+    width: 285.31px;
+    height: 620px;
+  }
+  .showOverlay {
+    visibility: visible;
+  }
+  .div {
+    display: flex;
+    flex-direction: row;
+  }
+  .div button {
+    margin-left: 20px;
+    width: 67.18px;
+    height: 20.38px;
+    top: 138.95px;
+    left: 220.63px;
+    gap: 0px;
+    border-radius: 3.02px;
+    border: 0;
+    background-color: var(--blue-color);
+    opacity: 0px;
+  }
+  h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 5px;
+  }
+  .filterhead {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .filterhead .x {
+    background-color: var(--blue-color);
+    border-radius: 4px;
+    height: 25px;
+    margin-left: 30%;
+    color: white;
+    border: 0px;
+  }
+  .filterapplied {
+    background-color: var(--gray2-color);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4.42px;
+    height: 30px;
+    overflow-y: auto;
+  }
+  .filteritem {
+    display: inline-block;
+    margin: 5px;
+    background-color: var(--blue-color);
+    padding: 5px;
+    border-radius: 4px;
+    height: 18px;
+    font-family: Poppins;
+    font-size: 11.06px;
+    font-weight: 400;
+    line-height: 17.93px;
+    text-align: left;
+  }
+  .filteritem button {
+    background-color: rgb(0, 0, 0, 0);
+    border: 0px;
+  }
+
+  .stock {
+    background-color: var(--gray2-color);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .stock input {
+    color: white;
+    background-color: var(--gray-color);
+    border: 0px;
+    border-radius: 4px;
+    width: 100%;
+    height: 27px;
+    width: 207.38px;
+    height: 20.38px;
+    top: 138.88px;
+    left: 38.49px;
+    gap: 0px;
+    border-radius: 3.77px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .industry {
+    display: flex;
+    flex-direction: column;
+  }
+  .industry .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .industry img {
+    display: none;
+    width: 7.36px;
+    height: 5.94px;
+    padding-right: 10px;
+  }
+  .industry h3 {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: white;
+    margin: 5px;
+    margin-bottom: 5px;
+  }
+
+  .industryitems {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .industryitem span {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+    color: white;
+  }
+
+  .industryitem2 {
+    margin-left: 5px;
+  }
+  .industryitem2 span {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+  }
+  .morefilter {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .morefilter span {
+    color: white;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.32px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .morefilter h3 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: white;
+  }
+  .morefilter form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    width: 20px;
+  }
+  .morefilter .market-cap {
+    padding-right: 10px;
+  }
+  .morefilter .risk {
+    padding-right: 10px;
+    padding-left: 60px;
+  }
+
+  .head {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .head h3 {
+    margin: 0px;
+  }
+  .head img {
+    display: none;
+    width: 7.36px;
+    height: 5.94px;
+    padding-right: 10px;
+  }
+
+  .morefilter2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .morefilter2 h3 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+  }
+  .strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .morefilter2 h3 {
+    margin: 0%;
+    margin-top: 0px;
+  }
+  .asset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .morefilter2 p {
+    margin-bottom: -5px;
+  }
+  form div span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .buttons .button2 {
+    background-color: var(--blue-color);
+    border: 0cap;
+    opacity: 0px;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 99.63px;
+    height: 29.64px;
+    top: 542.02px;
+    left: 55.44px;
+    gap: 0px;
+    border-radius: 3.02px;
+    border: 0.75px;
+    opacity: 0px;
+  }
+  .buttons .button {
+    display: block;
+    opacity: 0px;
+    border-color: rgba(255, 255, 255, 1);
+    border-radius: 3.02px;
+    width: 99.63px;
+    height: 29.64px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0, 1);
+    top: 542.02px;
+    left: 55.44px;
+  }
+  .closebtn {
+    display: block;
+    color: white;
+    /* position: absolute; */
+    float: right;
+  }
+}

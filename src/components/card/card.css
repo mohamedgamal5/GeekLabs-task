@@ -1,0 +1,253 @@
+.search .profile-icon {
+  flex-direction: column;
+  align-items: center;
+  bottom: 24px;
+  padding-right: 25px;
+}
+.search .notification {
+  position: relative;
+}
+
+.search {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.search .number {
+  position: absolute;
+  background-color: var(--green-color);
+  width: 11px;
+  height: 11px;
+  top: -5.5px;
+  right: -4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+}
+.vertical-line {
+  height: 38px;
+  background-color: var(--blue-color);
+  padding-right: 2px;
+  margin-right: 5px;
+}
+
+.search {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  width: 611px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: var(--gray-color);
+  color: white;
+}
+.search h1 {
+  margin: 0;
+  padding-right: 10px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  color: white;
+}
+
+.strp-list {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  /* overflow-y: scroll; */
+}
+
+.card {
+  display: flex;
+  border: 1px solid var(--gray-color);
+  background-color: var(--gray-color);
+  margin-bottom: 15px;
+  padding: 5px;
+  height: 54px;
+  width: 97%;
+  margin-right: 5px;
+  border-radius: 7.69px;
+  align-items: center;
+  justify-content: center;
+}
+.card-active {
+  display: flex;
+  border: 0px solid var(--gray-color);
+  background-color: var(--blue-color);
+
+  padding: 5px;
+  height: 54px;
+  width: 97%;
+  margin-right: 5px;
+  border-radius: 7.69px;
+  align-items: center;
+  justify-content: center;
+}
+.data {
+  background-color: black;
+  width: 97%;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  padding-bottom: 5px;
+}
+.data p {
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 7px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--gray-color); /* Color of the scrollbar thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0, 0); /* Color of the scrollbar track */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  width: 100%;
+}
+/* Style for table cells */
+td {
+  text-align: center;
+  vertical-align: middle; /* Center align content vertically */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+td img {
+  width: 24px;
+  height: 26px;
+  /* padding-left: 272.23px; */
+  padding-right: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* Style for table cells */
+td,
+th {
+  border: 1px solid #ccc; /* Inner cell borders */
+  padding: 10px;
+}
+
+/* Remove the outer border */
+table,
+tr,
+td,
+th {
+  border-width: 0;
+}
+
+/* Re-apply the inner cell borders */
+td,
+th {
+  border: 1px solid #ccc;
+}
+.low {
+  color: var(--orange-color);
+}
+.high {
+  color: var(--green-color);
+}
+.filter-button {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .search input {
+    display: none;
+  }
+  .strp-list {
+    width: 95%;
+    height: 95%;
+  }
+  l .search .profile-icon {
+    display: none;
+  }
+  .search {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .filter-button {
+    display: block;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    width: 68px;
+    height: 20.63px;
+    border-radius: 4px;
+    border: 0px;
+    margin-right: 20px;
+  }
+  table {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr {
+    height: 100%;
+    width: 100%;
+  }
+  /* Style for table cells */
+  td {
+    text-align: center;
+    vertical-align: middle; /* Center align content vertically */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  td img {
+    width: 10px;
+    height: 10px;
+    /* padding-left: 272.23px; */
+    padding-right: 5px;
+    margin-right: 0px;
+  }
+}
